@@ -19,7 +19,7 @@ Replace 3000:3000 with the appropriate ports if your application runs on a diffe
 
 Once the container is running, access the application via:
 
-http://localhost:3000
+http://localhost:3002
 
 Using Docker Compose (Optional)
 
