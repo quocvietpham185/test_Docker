@@ -4,7 +4,7 @@
 Run the following command to clone the repository and navigate into it: 
 ```sh
 git clone https://github.com/quocvietpham185/test_Docker.git && cd your-repository
-
+```
 ### Build the Docker Image:  
 Build the Docker image using the following command:
 ```sh
