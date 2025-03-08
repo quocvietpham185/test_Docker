@@ -2,15 +2,19 @@
 
 ### Clone the Repository:  
 Run the following command to clone the repository and navigate into it: 
-```git clone https://github.com/quocvietpham185/test_Docker.git && cd your-repository```
+```sh
+git clone https://github.com/quocvietpham185/test_Docker.git && cd your-repository
 
 ### Build the Docker Image:  
 Build the Docker image using the following command:
-```docker build -t test_docker .```
-
+```sh
+docker build -t test_docker .
+```
 ### Run the Container:  
 Run the container with the specified port mapping:
-```docker run -d -p 3000:3000 --name my_postgres postgres```
+```sh
+docker run -d -p 3000:3000 --name my_postgres postgres
+```
 (Replace `3000:3000` with the appropriate ports if your application runs on a different port.)  
 
 ### Access the Application:  
@@ -19,20 +23,41 @@ Once the container is running, open your browser and go to:
 
 ### Using Docker Compose (Optional):  
 If your project requires multiple services (e.g., database, backend, frontend), use `docker-compose.yml`  
-- Start services: ```docker-compose up -d```  
-- Stop services: ```docker-compose down```  
-
+- Start services:
+```sh
+docker-compose up -d
+```  
+- Stop services:
+```sh
+docker-compose down  
+```
 ### Managing the Container:  
-- List running containers: ```docker ps```  
-- Stop container: ```docker stop your-container-name```  
-- Delete container: ```docker rm your-container-name```  
-
+- List running containers:
+```sh
+docker ps
+```  
+- Stop container:
+```sh
+docker stop your-container-name
+```  
+- Delete container:
+```sh
+docker rm your-container-name 
+```
 ### Environment Variables:  
 If your application requires environment variables, create a `.env` file:  
-```cp .env.example .env```  
+```sh
+cp .env.example .env
+```
 Modify the .env file as needed before running the container.
 
 ### Troubleshooting:  
-- View logs: ```docker logs your-container-name```  
-- Restart container: ```docker restart your-container-name```  
+- View logs:
+```sh
+docker logs your-container-name
+```  
+- Restart container:
+```sh
+docker restart your-container-name
+```  
 
