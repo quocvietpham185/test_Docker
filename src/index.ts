@@ -234,7 +234,7 @@ app.delete('/users/:id', async (req, res) => {
   }
 });
 
-const PORT = 3002;
+const PORT = 3000;
 app.listen(PORT, () => {
   console.log(`Server is running on http://localhost:${PORT}`);
   console.log(`Swagger documentation available at http://localhost:${PORT}/api-docs`);
