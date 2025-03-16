@@ -5,6 +5,18 @@ Run the following command to clone the repository and navigate into it:
 ```sh
 git clone https://github.com/quocvietpham185/test_Docker.git && cd your-repository
 ```
+###Install Dependencies:
+Before running the application, make sure to install all the required dependencies using the following command:
+```sh
+npm install
+```
+###Start the Application:
+To start the application locally, use the following command:
+```sh
+npm start
+```
+This will start the server on the default port (e.g., 3000).
+
 ### Build the Docker Image:  
 Build the Docker image using the following command:
 ```sh
