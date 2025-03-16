@@ -5,12 +5,12 @@ Run the following command to clone the repository and navigate into it:
 ```sh
 git clone https://github.com/quocvietpham185/test_Docker.git && cd your-repository
 ```
-###Install Dependencies:
+### Install Dependencies:
 Before running the application, make sure to install all the required dependencies using the following command:
 ```sh
 npm install
 ```
-###Start the Application:
+### Start the Application:
 To start the application locally, use the following command:
 ```sh
 npm start
